@@ -22,15 +22,6 @@ export default {
   methods:{
 	   myclick (){
         var url = this.myurl;
-        //console.log('url:'+url);
-
-        // let data ={};
-        // data.userId =[];
-        // data.userId.push({
-        //   'id':5,
-        //   'name':'name-5',
-        // });
-        // this.$emit('loaded',data);
         var vm = this;
 
         $.ajax({
@@ -52,23 +43,6 @@ export default {
             },
       });
 
-
-        // $.ajax({
-        //     'dataType': "json",
-        //     'contentType':'application/json;charset=UTF-8',
-        //     'data':{
-        //       a:123
-        //     },
-        //     'url': url,
-        //     'success': function(){  
-             
-        //       console.log('success....');          
-        //       // console.log('data:'+data);
-        //       // this.$emit('loaded',data);
-        //     }
-        // }).done(function(){
-        //       console.log('done....');
-        // });
         
     }
   },
