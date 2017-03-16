@@ -28,7 +28,8 @@ export default {
   methods:{
 	
 	showMsg(){
-		console.log('time:'+this.value);
+		// console.log('time:'+this.value);
+		alert('time:'+this.value);
 	},
   },
   mounted () {
